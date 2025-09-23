@@ -25,6 +25,8 @@ export default function About() {
     },
   ];
 
+  
+
   return (
     <section className="bg-gradient-to-b from-indigo-50 to-white">
       {/* Hero */}
@@ -40,18 +42,16 @@ export default function About() {
             About <span className="text-indigo-600">PinPay</span>
           </h1>
           <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-            PinPay is your all-in-one digital payment app for <strong>recharge, bill
-            payments, travel booking, and insurance</strong>. No need to juggle
-            multiple apps — we bring it all under one simple, secure, and
-            rewarding platform.
-          </p>
-          <motion.button
-            onClick={() => alert("Get Started clicked")}
-            whileHover={{ scale: 1.05 }}
-            className="bg-indigo-600 text-white px-6 py-3 rounded-xl shadow-lg hover:bg-indigo-700 transition"
-          >
-            Get Started
-          </motion.button>
+  PinPay is your all-in-one digital payment app for 
+  <strong> recharge, bill payments, travel booking, and insurance</strong>. 
+  No need to juggle multiple apps — we bring it all under one simple, secure, 
+  and rewarding platform. With cashback on every payment, instant UPI 
+  transfers, and 24×7 customer support, PinPay ensures that your 
+  transactions are not only fast and safe but also rewarding. From 
+  utility bills to entertainment recharges, ticket bookings to policy renewals, 
+  everything you need is just a tap away.
+</p>
+          
         </div>
         <motion.div
           className="flex justify-center"
