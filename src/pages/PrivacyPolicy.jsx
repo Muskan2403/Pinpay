@@ -87,7 +87,7 @@ export default function PrivacyPolicy() {
             </h2>
             <p className="text-gray-700">
               We may update this policy to reflect changes in practices or regulations.
-              Contact us at <strong>support@pinpay.com</strong> for questions.
+              Contact us at <strong>Support@pinpay.in</strong> for questions.
             </p>
           </div>
         </div>

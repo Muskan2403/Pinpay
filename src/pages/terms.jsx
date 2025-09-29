@@ -262,10 +262,10 @@ export default function TermsWithTOC() {
             discounts, and general information. In case the customer does not want such information, 
             they have to explicitly ask to be excluded by emailing us at{" "} 
             <a
-              href="mailto:care@pinpay.in"
+              href="mailto:support@pinpay.in"
               className="text-blue-600 hover:underline"
             >
-              care@pinpay.in 
+              support@pinpay.in 
             </a>
             {" "}or responding to opt-out SMSes sent from time to time to the customer.
           </p>

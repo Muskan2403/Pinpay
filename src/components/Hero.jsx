@@ -13,18 +13,15 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
-            All Payments in One App: <br />
-            <span className="text-indigo-600">PinPay</span>
+            All Payments in One App: 
+            <span className="text-blue-700"> PinPay</span>
           </h1>
           <p className="text-lg text-gray-600 mb-6">
             Recharge, book, and pay bills instantly with India’s most convenient payment app.
           </p>
           <div className="space-x-4">
-            <button className="px-6 py-3 rounded-full bg-indigo-600 text-white font-semibold shadow-lg hover:bg-indigo-700 transition">
+            <button className="px-6 py-3 rounded-full bg-blue-700 text-white font-semibold shadow-lg hover:bg-blue-900 transition">
               Get on Google Play
-            </button>
-            <button className="px-6 py-3 rounded-full bg-gray-900 text-white font-semibold shadow-lg hover:bg-gray-800 transition">
-              Get on App Store
             </button>
           </div>
         </motion.div>

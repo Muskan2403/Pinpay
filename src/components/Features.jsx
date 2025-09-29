@@ -16,7 +16,7 @@ export default function Features() {
         <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
           {features.map((f, idx) => (
             <div key={idx} className="p-6 rounded-2xl bg-gray-50 shadow hover:shadow-lg transition">
-              <f.icon className="w-10 h-10 text-indigo-600 mx-auto mb-4" />
+              <f.icon className="w-10 h-10 text-blue-800 mx-auto mb-4" />
               <h3 className="font-semibold text-lg mb-2">{f.title}</h3>
               <p className="text-gray-600 text-sm">{f.desc}</p>
             </div>

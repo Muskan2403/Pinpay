@@ -63,7 +63,7 @@ export default function Faqs() {
                 {faq.question}
                 <ChevronDown
                   className={`w-6 h-6 transform transition-transform ${
-                    openIndex === index ? "rotate-180 text-indigo-600" : ""
+                    openIndex === index ? "rotate-180 text-blue-800" : ""
                   }`}
                 />
               </button>

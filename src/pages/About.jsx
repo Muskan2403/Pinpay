@@ -28,7 +28,7 @@ export default function About() {
   
 
   return (
-    <section className="bg-gradient-to-b from-indigo-50 to-white">
+    <section className="bg-gradient-to-b from-blue-50 to-white">
       {/* Hero */}
       <motion.div
         className="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center"
@@ -39,7 +39,7 @@ export default function About() {
       >
         <div>
           <h1 className="text-5xl font-extrabold text-gray-900 mb-6 leading-tight">
-            About <span className="text-indigo-600">PinPay</span>
+            About <span className="text-blue-800">PinPay</span>
           </h1>
           <p className="text-lg text-gray-600 mb-8 leading-relaxed">
   PinPay is your all-in-one digital payment app for 
@@ -93,7 +93,7 @@ export default function About() {
                 viewport={{ once: false }}
                 transition={{ duration: 0.6, delay: i * 0.1 }}
               >
-                <Icon className="w-10 h-10 text-indigo-600 mb-4" />
+                <Icon className="w-10 h-10 text-blue-800 mb-4" />
                 <h3 className="font-semibold text-lg mb-2">{item.title}</h3>
                 <p className="text-gray-600 text-sm">{item.desc}</p>
               </motion.div>
@@ -104,7 +104,7 @@ export default function About() {
 
       {/* Vision */}
       <motion.div
-        className="bg-indigo-600 text-white py-20"
+        className="bg-blue-800 text-white py-20"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: false }}

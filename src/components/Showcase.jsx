@@ -35,7 +35,7 @@ export default function Showcase() {
             From mobile recharge to travel booking and insurance — PinPay is your
             all-in-one solution for seamless digital payments.
           </p>
-          <button className="px-6 py-3 rounded-full bg-indigo-600 text-white font-semibold shadow-lg hover:bg-indigo-700 transition">
+          <button className="px-6 py-3 rounded-full bg-blue-600 text-white font-semibold shadow-lg hover:bg-blue-900 transition">
             Learn More
           </button>
         </motion.div>
